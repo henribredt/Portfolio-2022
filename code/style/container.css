@@ -50,8 +50,6 @@
     margin-left: 0.5rem;
 }
 
-
-
 @media only screen and (max-width: 830px) {
     .container-full {
         width: 600px;
@@ -92,6 +90,8 @@
         margin: 0px;
     }
 
+    /* remove spacing for container-half in second media querie warpping point*/
+    /* container-half-left and half-right are displayed als blocks now*/
     .container-third-right .container-half-left.container-spacer-right {
         margin-right: 0px;
     } 
