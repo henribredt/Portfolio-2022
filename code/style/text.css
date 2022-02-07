@@ -1,0 +1,22 @@
+@import url('https://rsms.me/inter/inter.css');
+
+
+.large-text {
+    font-size: 1.3rem;
+    line-height: 160%;
+}
+
+.medium-text {
+    font-size: 1.05rem;
+    line-height: 170%;
+    
+}
+
+.small-text {
+    font-size: 0.95rem;
+    line-height: 160%;
+}
+
+.bold {
+    font-weight: 600;
+}

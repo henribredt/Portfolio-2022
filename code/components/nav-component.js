@@ -3,8 +3,10 @@ class Nav extends HTMLElement {
         this.innerHTML = `
         
         <div class="container-max nav">
-            <div class="container-full">
-                <p style="padding: 1.3rem;">Header</p>
+            <div class="container-full nav-container">
+                <a href="index.html" class="a-secondary small-text nav-spacing">Home</a>
+                <a href="shop.html" class="a-primary small-text nav-spacing">Blog</a> 
+                <a href="shop.html" class="a-primary small-text">Shop</a> 
             </div>
         </div>
             
