@@ -9,6 +9,12 @@ body {
     padding: 0;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--secondary-element-color);
+    opacity: 0.4;
+}
 
 .inline-container-left {
     display: flex;
@@ -25,14 +31,18 @@ body {
     flex-direction: column;
 }
 
+.opacity {
+    opacity: 60%;
+}
+
 /* Navigation bar */
 .nav {
     background-color: var(--secondary-bkg-color);
 }
 
 .nav-container {
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
 }
 
 .nav-spacing {
@@ -44,6 +54,14 @@ body {
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
 }
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: -1px;
+    z-index: 1000;
+    background-color: var(--primary-bkg-color);
+  }
 
 /* Images */
 .img-container {
