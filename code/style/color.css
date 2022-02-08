@@ -18,6 +18,16 @@ body {
     }
 }
 
+/* Elements */
+.primary-element {
+    color: var(--primary-element-color);
+}
+
+.secondary-element {
+    color: var(--secondary-element-color);
+}
+
+/* Debug colors */
 .red {
     background-color: rgb(236, 89, 113);
 }
