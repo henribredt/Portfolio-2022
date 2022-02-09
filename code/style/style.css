@@ -61,7 +61,16 @@ div.sticky {
     top: -1px;
     z-index: 1000;
     background-color: var(--primary-bkg-color);
-  }
+}
+
+div.sticky-heading {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 100px;
+    height: 36px;
+    z-index: 999;
+}
+
 
 /* Images */
 .img-container {
