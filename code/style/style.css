@@ -9,6 +9,11 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px; /* scrolling offsett */
+}
+
 hr {
     border: none;
     height: 1px;
@@ -66,9 +71,19 @@ div.sticky {
 div.sticky-heading {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 100px;
+    top: 110px;
     height: 36px;
     z-index: 999;
+}
+
+/* Buttons */
+.button {
+    padding: 0.4rem 0.9rem 0.4rem 0.9rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: var(--secondary-element-color);
+    display: inline-block;
 }
 
 

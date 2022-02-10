@@ -40,6 +40,15 @@
     margin-top: 8rem;
 }
 
+.mt-9 {
+    margin-top: 9rem;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+
 
 /* Margin bottom */
 
@@ -81,6 +90,14 @@
 
 .mb-8 {
     margin-bottom: 8rem;
+}
+
+.mb-9 {
+    margin-bottom: 9rem;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
 }
 
 /* Margin left */
