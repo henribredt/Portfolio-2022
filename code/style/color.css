@@ -4,7 +4,7 @@ body {
     --secondary-element-color: rgb(122, 122, 122);
     --primary-bkg-color: #F4F4F4;
     --secondary-bkg-color: #fdfdfd;
-    --accent-color : orange;
+    --accent-color : rgb(60, 147, 228);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +14,7 @@ body {
         --secondary-element-color: rgb(141, 141, 141);
         --primary-bkg-color:  #000;
         --secondary-bkg-color: #111111;
-        --accent-color : orange;
+        --accent-color : rgb(47, 124, 196);
     }
 }
 
@@ -27,13 +27,17 @@ body {
     color: var(--secondary-element-color);
 }
 
+.white {
+    color: #fff;
+}
+
 /* Debug colors */
 .red {
     background-color: rgb(236, 89, 113);
 }
 
 .blue {
-    background-color: rgb(83, 161, 233);
+    background-color:  var(--accent-color);
 }
 
 .green {

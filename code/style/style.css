@@ -32,12 +32,29 @@ hr {
 }
 
 .vertical-stack {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .opacity {
     opacity: 60%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.featured-text {
+    padding: 0.65rem;
+}
+
+.featured-text a {
+    text-decoration: none;
+}
+
+.featured-text a:hover {
+    text-decoration: underline;
 }
 
 /* Navigation bar */
