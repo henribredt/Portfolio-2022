@@ -19,3 +19,7 @@
 .bold {
     font-weight: 600;
 }
+
+.no-wrap {
+    white-space: nowrap;
+}
