@@ -160,3 +160,11 @@
 .mr-2 {
     margin-right: 2rem;
 }
+
+
+@media only screen and (max-width: 780px) { 
+    .mb-12.mt-7.smaller-on-mobile {
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    } 
+}

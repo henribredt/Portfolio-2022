@@ -3,9 +3,9 @@ class Footer extends HTMLElement {
         this.innerHTML = `
         <div class="container-max">
         <hr>
-        <div class="container-full mb-1h mt-1h">
+        <div class="container-full mb-1h mt-1h" id="footer">
            
-            <div class="container-third-left container-spacer-right">
+            <div class="container-third-left container-spacer-right hide-on-mobile">
                 <a href="#" class="a-primary small-text nav-spacing">Henri Bredt</a>
             </div>
     
