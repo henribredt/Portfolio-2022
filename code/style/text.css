@@ -1,4 +1,7 @@
-@import url('https://rsms.me/inter/inter.css');
+@font-face {
+    font-family: Inter;
+    src: url("../ressources/fonts/Inter-Regular.woff2");
+  }
 
 .large-text {
     font-size: 1.45rem;
@@ -14,10 +17,6 @@
 .small-text {
     font-size: 0.9rem;
     line-height: 160%;
-}
-
-.bold {
-    font-weight: 600;
 }
 
 .no-wrap {
