@@ -173,6 +173,7 @@ img {
     text-decoration: underline;
 }
 
+
 /* Mobile */
 @media only screen and (max-width: 780px) { 
     .hide-on-mobile {
@@ -186,4 +187,20 @@ img {
     .mb-l-on-mobile {
         margin-bottom: 4rem;
     }
+
+    body > div.sticky > div > div > div.container-full.inline-container-right.onpage-nav {
+        /*display: block;
+        margin-left: 0px;*/
+        margin-right: 0px;
+    }
 }
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
