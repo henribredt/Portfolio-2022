@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
                 <div class="inline-container-left">
                     <a href="legal.html" class="a-primary small-text nav-spacing">Legal</a>
                     <a href="privacy.html" class="a-primary small-text nav-spacing">Privacy</a>
-                    <a href="#" class="a-primary small-text">Socials</a>
+                    <a href="socials.html" class="a-primary small-text">Socials</a>
                  </div>
                 
             </div>
