@@ -203,4 +203,10 @@ img {
           -ms-user-select: none; /* Internet Explorer/Edge */
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
+}
+
+::selection {
+    background-color: var(--primary-element-color);
+    color: var(--primary-bkg-color);
   }
+
