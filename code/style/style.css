@@ -103,6 +103,12 @@ div.sticky-heading {
     display: inline-block;
 }
 
+.button:hover {
+    background-color: var(--tertiary-bkg-color);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
 
 /* Images */
 .img-container {
@@ -147,6 +153,11 @@ img {
 }
 
 /* Links */
+.a-plain {
+     color: var(--primary-element-color);
+    text-decoration: none;
+}
+
 .a-primary {
     color: var(--primary-element-color);
     text-decoration: none;
@@ -209,8 +220,14 @@ img {
                                     supported by Chrome, Edge, Opera and Firefox */
 }
 
+#literal-widget a {
+    text-decoration: none;
+}
+
 ::selection {
     background-color: var(--primary-element-color);
     color: var(--primary-bkg-color);
-  }
+}
+
+
 
